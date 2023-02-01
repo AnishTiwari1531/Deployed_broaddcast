@@ -2,7 +2,7 @@ require("dotenv").config()
 const express = require("express");
 const mongoose = require("mongoose");
 const multer = require("multer");
-const route = require("D:/Broadcast/broadcast/src/routes/route.js");
+const route = require("./src/routes/route");
 const app = express();
 
 app.use(express.json());
@@ -11,7 +11,7 @@ app.use(multer().any());
 
 mongoose.set("strictQuery", false);
 
-mongoose.connect(process.env.MONGO_URL, { useUnifiedTopology: true, useNewUrlParser: true, })
+mongoose.connect(process.env.MONGO_URL, { useUnifiedTopology: true, useNewUrlParser: true })
     .then(() => console.log("Database Connected successfully..."))
     .catch((error) => console.log(error));
 
