@@ -45,7 +45,7 @@ If facing any issue please Contact me.
 
 
 # Deployed on Railway
-#  https://deployedbroaddcast-production.up.railway.app/                         //
-# https://deployedbroaddcast-production.up.railway.app/getallusername       // It'll get all the user Details but will only show _id and name of the user as I've selected those to be displayed
+#  https://deployedbroaddcast-production-b949.up.railway.app/                         //
+# https://deployedbroaddcast-production-b949.up.railway.app/getallusername        // It'll get all the user Details but will only show _id and name of the user as I've selected those to be displayed
 `   -------- Thanks for reading -----------   `
               **ANISH TIWARI**
