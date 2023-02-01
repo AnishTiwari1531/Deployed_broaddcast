@@ -43,5 +43,9 @@ You can use either of these two
 
 If facing any issue please Contact me.
 
+
+# Deployed on Railway
+#  https://deployedbroaddcast-production.up.railway.app/                         //
+# https://deployedbroaddcast-production.up.railway.app/getallusername       // It'll get all the user Details but will only show _id and name of the user as I've selected those to be displayed
 `   -------- Thanks for reading -----------   `
               **ANISH TIWARI**

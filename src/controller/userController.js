@@ -196,7 +196,7 @@ const getUserDetails = async (req, res) => {
             searchObject["phone"] = phone;
         }
 
-        let data = await userModel.find(searchObject).select({ role: 0, profileImage: 0, password: 0, createdAt: 0, updatedAt: 0, _id: 0, isDeleted: 0 })
+        let data = await userModel.find(searchObject).select({ role: 0, password: 0, createdAt: 0, updatedAt: 0, _id: 0, isDeleted: 0 })
 
         if (data.length !== 0) {
             return res.status(200).send({ status: true, message: "Success", Data: data });
